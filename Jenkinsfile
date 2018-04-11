@@ -21,7 +21,7 @@ def uploadSpec = """{
 "files": [
 {
 "pattern": "target/hello-0.0.1.war",
-"target": "test-project/${BUILD_NUMBER}/",
+"target": "jenkins-repo/${BUILD_NUMBER}/",
 "props": "Integration-Tested=Yes;Performance-Tested=No"
 }
 ]
